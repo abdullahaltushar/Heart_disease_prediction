@@ -6,8 +6,10 @@
 Thus preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
 
 ## 👩‍💻 Technology Stack
-#### **Tools**
+#### **Language**
 ![Python](https://img.shields.io/badge/python-000066?style=for-the-badge&logo=python&logoColor=silver)
+#### **Tools**
+ ![Numpy](https://img.shields.io/badge/Numpy-000000?style=for-the-badge&logo=numpy&logoColor=silver) ![Pandas](https://img.shields.io/badge/Pandas-3c0152?style=for-the-badge&logo=pandas&logoColor=silver) ![Matplotlib](https://img.shields.io/badge/Matplotlib-40001c?style=for-the-badge&logo=matplotlib&logoColor=silver)![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-%23f50000?style=for-the-badge&logo=transformer&logoColor=silver)
 
 
 ## 🔭: Problem Definition
@@ -62,7 +64,7 @@ The following are the features we'll use to predict our target variable (heart d
 	- 0: Unsloping: better heart rate with excercise (uncommon)
 	- 1: Flatsloping: minimal change (typical healthy heart)
 	- 2: Downsloping: Signs of unhealthy heart
-- target - have disease or not (1=yes, 0=no)(= the predicted attribute
+- target - have disease or not (1=yes, 0=no)(= the predicted attribute)
 </p>
 
 
