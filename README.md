@@ -1,6 +1,5 @@
 <h1 align="center">
 	<img src="https://readme-typing-svg.herokuapp.com?font=bold&size=40&duration=6000&color=861AF7&lines=Heart+Disease+Prediction!"> 
-	[image](https://user-images.githubusercontent.com/53476981/182079370-f481b21b-ec96-41b0-b983-8a995adb7fe9.png)
 </h1>
 
 
