@@ -79,10 +79,10 @@ But before we build a model, we have to get our dataset ready.
 </p>
 ## 👁️‍🗨️: Model choices
 <p>
-Now we've got our data prepared, we can start to fit models. we'll be using the following and comparing their results.
-	- Logistic Regression - LogisticRegression()
-	- K-Nearest Neighbors - KNeighnoursClassifier()
-	- RandomForest - RandomForestClassifier()
+- Now we've got our data prepared, we can start to fit models. we'll be using the following and comparing their results.
+	- Logistic Regression
+	- K-Nearest Neighbors 
+	- RandomForest 
 	- Decision Tree
 	- Neural Network
 </p>
