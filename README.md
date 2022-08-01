@@ -16,7 +16,7 @@ Thus preventing Heart diseases has become more than necessary. Good data-driven 
 <p>In our case, the problem we will be exploring is binary classification (a sample can only be one of two things).
 This is because we're going to be using a number of differnet features (pieces of information) about a person to predict whether they have heart disease or not.</p>
 
-## 🧰: Data
+## 📘: Data
 <p>Ther is also a version of it avalable on Kaggle.
 The original database contains 76 attributes, but here only 12 attributes will be used. Attributes (also called features) are the variables what we'll use to predict our target variable.
 Attributes and features are also referred to as independent variables and a target variable can be referred to as a dependent variable.</p>
@@ -65,6 +65,26 @@ The following are the features we'll use to predict our target variable (heart d
 	- 1: Flatsloping: minimal change (typical healthy heart)
 	- 2: Downsloping: Signs of unhealthy heart
 - target - have disease or not (1=yes, 0=no)(= the predicted attribute)
+</p>
+
+## ✅: Modeling
+<p>We've explored the data, now we'll try to use machine learning to predict our target variable based on the 11 independent variables.
+Remember our problem?
+Given clinical parameters about a patient, can we predict whether or not they have heart disease?
+That's what we'll be trying to answer.
+And remember our evaluation metric?
+If we can reach 92% accuracy at predicting whether or not a patient has heart disease during the proof of concept, we'll pursure this project.
+That's what we'll be aiming for.
+But before we build a model, we have to get our dataset ready.
+</p>
+## 👁️‍🗨️: Model choices
+<p>
+Now we've got our data prepared, we can start to fit models. we'll be using the following and comparing their results.
+	- Logistic Regression - LogisticRegression()
+	- K-Nearest Neighbors - KNeighnoursClassifier()
+	- RandomForest - RandomForestClassifier()
+	- Decision Tree
+	- Neural Network
 </p>
 
 
