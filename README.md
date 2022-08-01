@@ -33,36 +33,37 @@ Heart Disease Data Dictionary
 A data dictionary describes the data you're dealing with. Not all datasets come with them so this is where you may have to do your research or ask a subject matter expert (someone who knows about the data) for more.
 The following are the features we'll use to predict our target variable (heart disease or no heart disease).
 
-- 1.	age - age in years
+- age - age in years
 	- sex - 1 = male; 0 = female
-- 2.	chest pain type
-	- • 0: Typical angina: chest pain related decrease blood supply to the heart
-	- • 1: Atypical angina: chest pain not related to heart
-•	2: Non-anginal pain: typically esophgael spasms (non heart related)
-•	3: Asymptomatic: chest pain not showing signs of disease
-4.	Resting bp s- resting blood pressure (in mm Hg on admission to the hospital)
-5.	cholesterol - serum cholestoral in mg/dl
-•	serum = LDL + HDL + .2 * triglycerides
-•	above 200 is cause for concern
-6.	fasting blood sugar- (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-•	'>126' mg/dL signals diabetes
-7.	Resting ecg - resting electrocardiographic results
-•	0: Nothing to note
-•	1: ST-T Wave abnormality
-	can range from mild symptoms to severe problems
-	signals non-normal heart beat
-•	2: Possible or definite left venticular hypertrophy
-	Enlarged heart's main pumping chamber
-8.	Max heart rate- maximum heart rate achieved
-9.	Exercise angina- exercise induced angina (1 = yes; 0 = no)
-10.	oldpeak - ST depression induced by exercise relative to rest
-•	looks at stress of heart during excercise
-•	unhealthy heart will stress more
-11.	ST slope - the slope of the peak exercise ST segment
-•	0: Unsloping: better heart rate with excercise (uncommon)
-•	1: Flatsloping: minimal change (typical healthy heart)
-•	2: Downsloping: Signs of unhealthy heart
-12.	target - have disease or not (1=yes, 0=no)(= the predicted attribute
+- chest pain type
+	- 0: Typical angina: chest pain related decrease blood supply to the heart
+	- 1: Atypical angina: chest pain not related to heart
+	- 2: Non-anginal pain: typically esophgael spasms (non heart related)
+	- 3: Asymptomatic: chest pain not showing signs of disease
+- Resting bp s- resting blood pressure (in mm Hg on admission to the hospital)
+- cholesterol - serum cholestoral in mg/dl
+	- serum = LDL + HDL + .2 * triglycerides
+	- above 200 is cause for concern
+- fasting blood sugar- (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+	- '>126' mg/dL signals diabetes
+- Resting ecg - resting electrocardiographic results
+	- 0: Nothing to note
+	- 1: ST-T Wave abnormality
+		- can range from mild symptoms to severe problems
+		- signals non-normal heart beat
+	- 2: Possible or definite left venticular hypertrophy
+		- Enlarged heart's main pumping chamber
+- Max heart rate- maximum heart rate achieved
+- Exercise angina- exercise induced angina (1 = yes; 0 = no)
+- oldpeak - ST depression induced by exercise relative to rest
+	- looks at stress of heart during excercise
+	- unhealthy heart will stress more
+- ST slope - the slope of the peak exercise ST segment
+	- 0: Unsloping: better heart rate with excercise (uncommon)
+	- 1: Flatsloping: minimal change (typical healthy heart)
+	- 2: Downsloping: Signs of unhealthy heart
+- target - have disease or not (1=yes, 0=no)(= the predicted attribute
+</p>
 
 
     Logistic Regression (Scikit-learn)
