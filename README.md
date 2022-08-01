@@ -10,9 +10,9 @@ Thus preventing Heart diseases has become more than necessary. Good data-driven 
 ![Python](https://img.shields.io/badge/python-000066?style=for-the-badge&logo=python&logoColor=silver)
 
 
-## :Problem: Problem Definition
-In our case, the problem we will be exploring is binary classification (a sample can only be one of two things).
-This is because we're going to be using a number of differnet features (pieces of information) about a person to predict whether they have heart disease or not.
+## 🔭: Problem Definition
+<p>In our case, the problem we will be exploring is binary classification (a sample can only be one of two things).
+This is because we're going to be using a number of differnet features (pieces of information) about a person to predict whether they have heart disease or not.</p>
 
     Logistic Regression (Scikit-learn)
     Decision Tree (Scikit-learn)
