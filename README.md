@@ -14,6 +14,57 @@ Thus preventing Heart diseases has become more than necessary. Good data-driven 
 <p>In our case, the problem we will be exploring is binary classification (a sample can only be one of two things).
 This is because we're going to be using a number of differnet features (pieces of information) about a person to predict whether they have heart disease or not.</p>
 
+## 🧰: Data
+<p>Ther is also a version of it avalable on Kaggle.
+The original database contains 76 attributes, but here only 12 attributes will be used. Attributes (also called features) are the variables what we'll use to predict our target variable.
+Attributes and features are also referred to as independent variables and a target variable can be referred to as a dependent variable.</p>
+
+## 🛗: Evaluation
+<p> he evaluation metric is something you might define at the start of a project.
+Since machine learning is very experimental, you might say something like,
+If we can reach 93% accuracy at predicting whether or not a patient has heart disease during the proof of concept, we'll pursure this project.
+The reason this is helpful is it provides a rough goal for a machine learning engineer or data scientist to work towards.
+However, due to the nature of experimentation, the evaluation metric may change over time.</p>
+
+## 🛶: Features
+<p>Features are different parts of the data. During this step, you'll want to start finding out what you can about the data.
+One of the most common ways to do this, is to create a data dictionary.
+Heart Disease Data Dictionary
+A data dictionary describes the data you're dealing with. Not all datasets come with them so this is where you may have to do your research or ask a subject matter expert (someone who knows about the data) for more.
+The following are the features we'll use to predict our target variable (heart disease or no heart disease).
+
+- 1.	age - age in years
+	- sex - 1 = male; 0 = female
+- 2.	chest pain type
+	- • 0: Typical angina: chest pain related decrease blood supply to the heart
+	- • 1: Atypical angina: chest pain not related to heart
+•	2: Non-anginal pain: typically esophgael spasms (non heart related)
+•	3: Asymptomatic: chest pain not showing signs of disease
+4.	Resting bp s- resting blood pressure (in mm Hg on admission to the hospital)
+5.	cholesterol - serum cholestoral in mg/dl
+•	serum = LDL + HDL + .2 * triglycerides
+•	above 200 is cause for concern
+6.	fasting blood sugar- (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+•	'>126' mg/dL signals diabetes
+7.	Resting ecg - resting electrocardiographic results
+•	0: Nothing to note
+•	1: ST-T Wave abnormality
+	can range from mild symptoms to severe problems
+	signals non-normal heart beat
+•	2: Possible or definite left venticular hypertrophy
+	Enlarged heart's main pumping chamber
+8.	Max heart rate- maximum heart rate achieved
+9.	Exercise angina- exercise induced angina (1 = yes; 0 = no)
+10.	oldpeak - ST depression induced by exercise relative to rest
+•	looks at stress of heart during excercise
+•	unhealthy heart will stress more
+11.	ST slope - the slope of the peak exercise ST segment
+•	0: Unsloping: better heart rate with excercise (uncommon)
+•	1: Flatsloping: minimal change (typical healthy heart)
+•	2: Downsloping: Signs of unhealthy heart
+12.	target - have disease or not (1=yes, 0=no)(= the predicted attribute
+
+
     Logistic Regression (Scikit-learn)
     Decision Tree (Scikit-learn)
     Random Forest (Scikit-learn)
