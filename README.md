@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=bold&size=40&duration=6000&color=861AF7&width=600&height=70&lines=Heart+Disease+Prediction!"> 
+	<img src="https://readme-typing-svg.herokuapp.com?size=35&color=8B65F7&width=600&height=70&lines=Heart+Disease+Prediction!%F0%9F%92%9F"> 
 </h1>
 
 
