@@ -85,12 +85,5 @@ Now we've got our data prepared, we can start to fit models. we'll be using the 
 - K-Nearest Neighbors 
 - RandomForest 
 - Decision Tree
-- Neural Network
+- Artificial Neural Network with 2 Hidden layer (Keras)
 </p>
-
-
-
-    Logistic Regression (Scikit-learn)
-    Decision Tree (Scikit-learn)
-    Random Forest (Scikit-learn)
-    Artificial Neural Network with 2 Hidden layer (Keras)
